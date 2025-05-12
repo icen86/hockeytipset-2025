@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-  fetch('data/season_structure.json')
+  fetch('season_structure.json')
     .then(response => response.json())
     .then(data => populateGames(data))
     .catch(() => alert("Failed to load season structure."));
