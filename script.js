@@ -64,6 +64,7 @@ function submitForm(event) {
     const homeGoals = parseInt(document.querySelector(`[name=homeGoals${i}]`).value);
     const awayGoals = parseInt(document.querySelector(`[name=awayGoals${i}]`).value);
     const gameId = parseInt(document.querySelector(`[name=gameId${i}]`).value);
+    const date = "2025-05-12";
 
     if (homeGoals === awayGoals) return alert(`Game ${gameId} cannot be a tie.`);
 
