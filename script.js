@@ -12,7 +12,7 @@ function populateGames(data) {
   const container = document.getElementById('games');
   container.innerHTML = '';
 
-  data.gameList.forEach((game, index) => {
+  data.GameList.forEach((game, index) => {
     const div = document.createElement('div');
     div.innerHTML = `
       <fieldset>
