@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+fieldset {
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid #ffc107;
+  border-radius: 5px;
+  background-color: #212529;
+}
+
+legend {
+  font-weight: bold;
+  color: #ffc107;
+}
+
+input[type="text"], input[type="number"], input[type="date"] {
+  margin-bottom: 10px;
+  background-color: #343a40;
+  color: #ffc107;
+  border: 1px solid #ffc107;
+}
